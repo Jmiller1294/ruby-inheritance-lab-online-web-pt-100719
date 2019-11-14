@@ -27,6 +27,6 @@ justin.last_name = "Miller"
 
 justin.learn(more_knowledge)
 
-puts "Justin is smart he knows #{justin.knowledge.first} ."
+puts "Justin is smart he knows #{justin.knowledge.first}."
 
 
