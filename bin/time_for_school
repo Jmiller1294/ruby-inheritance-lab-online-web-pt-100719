@@ -21,12 +21,12 @@ steve.learn(more_knowledge)
 
 puts "Steve just learned this important knowledge: '#{steve.knowledge.first}' from Avi"
 
+justin = Student.new
+justin.first_name = "Justin"
+justin.last_name = "Miller"
 
-jim = User.new
-jim.first_name = "Justin"
-jim.last_name = "Miller"
+justin.learn(more_knowledge)
 
-phrase = jim.teach
+puts "Justin is smart he knows #{}"
 
-jim.learn(phrase)
 
